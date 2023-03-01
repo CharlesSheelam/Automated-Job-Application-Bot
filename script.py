@@ -24,9 +24,9 @@ class bot():
 
         self.driver.get(website)
         inputUserIdButton = self.driver.find_element(By.ID, "username")
-        inputUserIdButton.send_keys("csheelam")
+        inputUserIdButton.send_keys("enter your username")
         inputUserPassword = self.driver.find_element(By.ID, "password")
-        inputUserPassword.send_keys("moON20051103")
+        inputUserPassword.send_keys("enter your password")
         signInButton = self.driver.find_element(By.NAME, "submit")
         signInButton.click()
         sleep(21)
